@@ -64,6 +64,10 @@ I like to put the following in my `AGENTS.md`:
 - At the end of each milestone, run an adversarial code review with a fresh subagent before committing.
 ```
 
+Adversarial code review will catch scenarios where the implementing agent went against your `AGENTS.md`/prompt guidance, and flag it for remediation. You can tweak this as you wish: you even saying to sample x% of functions an verify correctness and if it falls behind a threshold do Y.
+
+I find that adversarial code review helps prevent a cascading effect of one agent implementing something wrong and it affecting more and more down the line.
+
 If you primarily use Claude but have an OpenAI subscription, you can set up the [Codex plugin for Claude Code](https://github.com/openai/codex-plugin-cc) to shell out review to Codex. OpenAI's models are generally good for these sorts of tasks and it helps balance your token usage.
 
 ### Examples
