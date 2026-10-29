@@ -1,15 +1,15 @@
 [book]
-authors = ["Lander"]
+authors = ["Lander Brandt"]
 language = "en"
 src = "src"
-title = "Reverse Engineering with AI"
+title = "land(ai)(re)'s Guide to Reverse Engineering with AI"
 
 [build]
 build-dir = "book"
 create-missing = false
 
 [output.html]
-edit-url-template = "https://github.com/landaire/reverse-engineering-with-ai/edit/main/{path}"
+edit-url-template = "https://github.com/landaire/reverse-engineering-with-ai-book/edit/main/{path}"
 git-repository-icon = "fab-github"
-git-repository-url = "https://github.com/landaire/reverse-engineering-with-ai"
-site-url = "/reverse-engineering-with-ai/"
+git-repository-url = "https://github.com/landaire/reverse-engineering-with-ai-book"
+site-url = "/reverse-engineering-with-ai-book/"
